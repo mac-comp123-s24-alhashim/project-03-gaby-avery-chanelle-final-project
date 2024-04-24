@@ -24,12 +24,16 @@ turtle.write('GAME OVER!', font=style, align='center')
 turtle.down()
 turtle.hideturtle()
 
-#turtle.color('white')
-#style = ('Courier', 30, 'italic')
-#turtle.write('Score', font=style)
-#turtle.hideturtle()
-
+turtle.up()
+turtle.goto(8,50)
+turtle.color('white')
+style = ('Courier', 20, 'italic')
+turtle.write('score', font=style, align='right')
+turtle.down()
+turtle.hideturtle()
 pen.end_fill()
+
+
 
 
 

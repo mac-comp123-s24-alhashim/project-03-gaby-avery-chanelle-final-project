@@ -14,6 +14,7 @@ black = (0, 0, 0)
 white = (255, 255, 255)
 green = (0, 255, 0)
 red = (255, 0, 0)
+pink = (255, 192, 203)
 
 # Snake attributes
 block_size = 20
@@ -25,7 +26,7 @@ font = pygame.font.SysFont(None, 25)
 # Draw snake
 def draw_snake(snake_list):
     for x in snake_list:
-        pygame.draw.rect(screen, green, [x[0], x[1], block_size, block_size])
+        pygame.draw.rect(screen, pink, [x[0], x[1], block_size, block_size])
 
 # Display message
 def message(msg, color):
@@ -58,7 +59,7 @@ def gameLoop():
         while game_close:
             screen.fill(white)
             final_score = len(snake_list) - 3
-            message("Game Over! Press C to play again", red)
+            message("Game Over! Press C to play again", pink)
             pygame.display.update()
 
             for event in pygame.event.get():
