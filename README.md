@@ -1,18 +1,22 @@
 # Project
 
-title: Swindler
-team members: Avery, Gaby and Chanelle
-a team name, this also should be the name of the team on GiHub Classroom: Steminists
-a short description of the project: Mimic of the snake game- snake starts small, as you get “apples” it gets longer and you try to win by filling up the entire screen
-why you choose this project: We all used to play the snake game in middle school
-the inspiration behind the project: The Snake Game
-a rough implementation and responsibility plan, ie, what needs to be accomplished, who will do what when.  Think about the list of deliverables when building the plan.
-Avery main driver
-Gaby visuals
-Chanelle coding concepts
-To accomplish: have a “snake” that gains length everytime it hit/”eats” an “apple”
-Game over when snake hits a wall or itself
-Display score (length) at the end
 
-Sketch : 
-![IMG_0560](https://github.com/mac-comp123-s24-alhashim/project-03-gaby-avery-chanelle-final-project/assets/157162574/25c6fc76-3767-4f1f-998a-f6a7389ac4f2)
+
+Title: Swindler
+
+
+Description: This Python script implements the classic Snake game, where the player controls a snake that grows longer as it eats food while avoiding collisions with itself and the walls.
+
+
+Requirements:
+• Python
+• PyChart
+• Pygame
+
+
+How to Run:
+1. Ensure you have Python installed on your system.
+2. Install PyChart and Pygame using pip: pip install pychart pygame
+3. Clone or download the Snake game repository.
+4. Navigate to the directory containing the Python script.
+5. Run the script using Python: python game.py
