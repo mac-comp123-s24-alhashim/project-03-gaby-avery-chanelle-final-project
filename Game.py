@@ -57,9 +57,9 @@ def gameLoop():
 
         # Game over screen
         while game_close:
-            screen.fill(white)
+            screen.fill(red)
             final_score = len(snake_list) - 3
-            message("Game Over! Press C to play again", pink)
+            message("Game Over! Press C to play again", white)
             pygame.display.update()
 
             for event in pygame.event.get():
